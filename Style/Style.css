@@ -1,0 +1,91 @@
+body {
+    margin:0;
+    padding: 0;
+    background: url(2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    form-family: Helvetica, Tahoma, arial;
+}
+.container-lg{
+    margin: 10PX;
+    background:rgba(117, 151, 230, 0.35);
+    border: 2px solid #FFFBD1;
+}
+.row{
+    background:rgba(147, 183, 255, 0.35);
+    border: 0.5px solid #FFFBD1;
+    margin: 3PX;
+}
+.form-label{
+    margin-left: 10px;
+    color: #ddd;
+}
+.form-control{
+    margin: 10px;
+    color: rgba(255, 255, 255);
+    border: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+
+button{
+    padding: 3px;
+    color: rgb(255, 246, 197);
+    background:rgba(48, 49, 132, 0.55);
+    border: 2px solid rgba(255, 238, 198, 0.8);
+    border-radius: 5px;
+}
+input {
+	font-family:arial;
+	font-size:16px;
+	vertical-align:middle;
+	background:rgba(117, 151, 230, 0.55);
+	color:#fff;
+	border:0;
+	display:inline-block;
+	margin:1px;
+	height:30px;
+}
+
+.messages {
+    color:rgb(253, 248, 221);
+    height: calc(100vh - 190px - 150px - 20px - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-x: auto;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    overflow-wrap: break-word;
+}
+h5{
+    padding: 2px;
+    background:rgba(147, 183, 255, 0.25);
+    border: 0.5px solid rgba(147, 183, 255, 0.15);
+    border-radius: 10px;
+    width: 100px;
+}
+
+.forms {
+    box-sizing: border-box;
+    color: rgba(219, 230, 255, 0.5);
+    padding: 10px;
+}
+
+.messages::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.messages::-webkit-scrollbar-track {
+    background: white;
+}
+
+.messages::-webkit-scrollbar-thumb {
+    background: #ddd;
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+.messages:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
